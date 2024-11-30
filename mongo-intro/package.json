@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-intro",
+  "version": "1.0.0",
+  "description": "mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings --watch-preserve-output --watch-path=./public/test.json --watch-path=./index.js index.js"
+  },
+  "keywords": [
+    "mongo",
+    "db"
+  ],
+  "author": "garima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
