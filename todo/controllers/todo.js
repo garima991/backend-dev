@@ -39,7 +39,7 @@ function updateTodo(req, res) {
       });
     })
     .catch((err) => {
-      res.status(500).send({ message: err });
+      res.status(500).send({ message: err});
     });
 }
 
@@ -58,3 +58,4 @@ function deleteTodo(req, res) {
 }
 
 module.exports = { createTodo, getTodos, updateTodo, deleteTodo };
+
